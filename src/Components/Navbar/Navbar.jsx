@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="nav-logo">
+      <div className="nav-log
         <img src={logo} alt="" />
         <p>MANGRI HATIYA</p>
       </div>
