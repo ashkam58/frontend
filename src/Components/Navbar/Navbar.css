@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+    padding: 10px;
     box-shadow: 0 1px 3px -2px black;
 }
 
@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    font-family: "Foldit", sans-serif;
 }
 
 .nav-logo p{
@@ -23,8 +24,10 @@
     list-style: none;
     gap: 50px;
     color: #626262;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
 }
 
 .nav-menu li{
