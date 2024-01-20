@@ -12,6 +12,11 @@
     font-family: "Foldit", sans-serif;
 }
 
+.nav-logo img{
+    height: 60px;
+    width: auto;
+}
+
 .nav-logo p{
     color: #171717;
     font-size: 38px;
