@@ -7,6 +7,7 @@ import {LoginSignup} from './Pages/LoginSignup'
 import { Product } from './Pages/Product';
 import { Cart } from './Pages/Cart';
 
+
 function App() {
   return (
     <div>
