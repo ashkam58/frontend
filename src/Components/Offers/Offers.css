@@ -1,11 +1,13 @@
 .offers{
-width: 65%;
-height: 60vh;
+width: 75%;
+height: 70vh;
 display: flex;
-margin: auto;
+margin: 80px auto;
 padding: 0px 140px;
 margin-bottom: 150px ;
-background:linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
 }
 
 
@@ -14,7 +16,7 @@ background:linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
     display: flex;
     flex-direction: column;
     justify-self: center;
-
+    margin-top: 40px;
 }
 
 .offers-left h1{
@@ -28,6 +30,31 @@ background:linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
     font-size: 22px;
     font-weight: 600;
 }
+
+
+.offers-left button{
+    border-radius: 35px;
+    margin: 5px;
+    padding: 10px;
+    background: #ff4141;
+    color: white;
+    width: 282px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.offers-right{
+    flex:1;
+    display: flex;
+    height:auto;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+
 
 
 
