@@ -6,7 +6,7 @@ import {Shop} from './Pages/Shop'
 import {LoginSignup} from './Pages/LoginSignup'
 import { Product } from './Pages/Product';
 import { Cart } from './Pages/Cart';
-
+import {Footer } from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -28,8 +28,11 @@ function App() {
         </Route>
       </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
+    
   );
+  
 }
 
 export default App;
